@@ -1,0 +1,19 @@
+.image_full{
+    display:block;
+    width: 100%;
+   }
+ 
+  .image_mobile{
+   display:none;
+  }
+ 
+ @media (max-width: 768px) {
+.image_full{
+    display:none;
+   }
+ 
+   .image_mobile{
+    display:block;
+    width: 100%;
+   }
+}
