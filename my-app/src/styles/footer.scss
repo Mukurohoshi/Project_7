@@ -1,6 +1,7 @@
 .image_full{
     display:block;
     width: 100%;
+    
    }
  
   .image_mobile{
@@ -10,6 +11,7 @@
  @media (max-width: 768px) {
 .image_full{
     display:none;
+    
    }
  
    .image_mobile{

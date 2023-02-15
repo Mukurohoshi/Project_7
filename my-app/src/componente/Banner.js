@@ -1,14 +1,11 @@
 import React from "react";
 import "../styles/banner.scss";
-import imageAccueil from '../image/IMG.png';
 
-
-
-function Banner(){
+function Banner({ imageURL, text }) {
   return (
     <section className="banner_accueil">
-        <img src={imageAccueil} alt="logements"/>
-          <p>Chez vous, partout et ailleurs</p>
+      <img src={imageURL} alt="logements" />
+      {text && <p>{text}</p>}
     </section>
   );
 }
