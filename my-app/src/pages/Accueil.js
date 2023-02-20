@@ -13,7 +13,7 @@ const Accueil = () => {
       {/* <Banner imageURL={imageAccueil} /> */}
       <section className="appart-list">
         {AppartListe.map(({ id, cover, title }) => (
-          <Card id={id} cover={cover} title={title} />
+          <Card key={id} id={id} cover={cover} title={title} />
         ))}
       </section>
     </div>
