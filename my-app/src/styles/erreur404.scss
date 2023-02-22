@@ -1,0 +1,27 @@
+.erreur-container {
+    color: #ff6060;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-top: 174px;
+    margin-bottom: 159px;
+    text-align: center;
+}
+
+.erreur404 {
+    font-weight: 700;
+    font-size: 288px;
+}
+
+.erreur-msg {
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 66px;
+    margin-bottom: 183px;
+}
+
+.erreur-lien {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ff6060;
+}

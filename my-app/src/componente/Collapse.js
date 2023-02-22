@@ -9,11 +9,11 @@ function Collapse({ title, children, page }) {
     setIsOpen(!isOpen);
   };
   const banner =
-    page === "about" ? "collapse-banner_about" : "collapse-banner_appart";
+    page === "apropos" ? "collapse-banner_about" : "collapse-banner_appart";
   const titleStyle =
-    page === "about" ? "collapse-title_about" : "collapse-title_appart";
+    page === "apropos" ? "collapse-title_about" : "collapse-title_appart";
   const contentStyle =
-    page === "about" ? "collapse-content_about" : "collapse-content_appart";
+    page === "apropos" ? "collapse-content_about" : "collapse-content_appart";
 
   return (
     <article>

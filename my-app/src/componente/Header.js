@@ -29,7 +29,7 @@ export default function Header({ props }) {
                     </li>
                     <li>
                         <NavLink
-                            to="/about"
+                            to="/A_propos"
                             className={({ isActive }) =>
                                 isActive
                                     ? 'kasa-link-active'

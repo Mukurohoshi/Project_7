@@ -64,7 +64,15 @@
 }
 
 .collapse-arrow{
-  width: 5%;
+  width: 3%;
 
 
+}
+
+.collapse-container_apropos {
+    margin: 0 auto 150px auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
 }
