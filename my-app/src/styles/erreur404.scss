@@ -25,3 +25,19 @@
     font-size: 18px;
     color: #ff6060;
 }
+
+@media screen and (max-width: 768px) {
+    .erreur404{
+        font-size: 96px;
+    }
+
+    .erreur-msg {
+        font-size: 18px;
+        margin-top: 11px;
+        margin-bottom: 133px;
+    }
+
+    .erreur-lien {
+        font-size: 14px;
+    }
+}

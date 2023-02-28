@@ -1,7 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import AppartListe from "../data/AppartListe.json";
-import Erreur404 from "./Erreur404";
 import Slider from "../componente/Slider";
 import Tag from "../componente/Tag";
 import Star from "../componente/Star";
@@ -12,8 +11,12 @@ const Appartement = () => {
   const { id } = useParams();
   const Appartementchoisi = AppartListe.find((appart) => appart.id === id);
 
-  if (!Appartementchoisi) return <Erreur404 />;
+  // if (!Appartementchoisi) return <Erreur404 />;
   // /404
+  if (!Appartementchoisi) {
+    // navigate("/404");
+    return <Navigate to="/404" />;
+  }
 
   return (
     <div className="appartement-container">

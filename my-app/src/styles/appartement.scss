@@ -7,7 +7,6 @@
 }
 .appartement-infos {
     margin: 30px auto 26px auto;
-    
     display: flex;
     text-align: start;
     justify-content: space-between;
@@ -42,7 +41,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 24px;
-    gap: 10px;
+    gap: 40px;
 }
 
 .appartement-profile p {
@@ -81,4 +80,57 @@
 
 .equipment-list {
     padding: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .appartement-infos {
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 16px;
+    }
+
+    .appartement-title h1 {
+        font-size: 25px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+
+    .appartement-title p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .appartement-host {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .appartement-profile {
+        margin-bottom: 0;
+    }
+
+    .appartement-profile p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .appartement-profile img {
+        width: 32px;
+    }
+
+    .appartement-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    .infos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
 }

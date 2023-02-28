@@ -9,3 +9,15 @@
     justify-content: flex-end;
     height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .star-list {
+        gap: 5px;
+        justify-content: flex-start;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+    }
+}
