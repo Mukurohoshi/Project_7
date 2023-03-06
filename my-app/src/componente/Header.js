@@ -15,7 +15,7 @@ export default function Header({ props }) {
             </div>
             <nav>
                 <ul className="kasa-header-list">
-                    <li className="test">
+                    <li className="kasa_accueil">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
@@ -27,7 +27,7 @@ export default function Header({ props }) {
                             Accueil
                         </NavLink>
                     </li>
-                    <li  className="test">
+                    <li  className="kasa_apropos">
                         <NavLink
                             to="/A_propos"
                             className={({ isActive }) =>

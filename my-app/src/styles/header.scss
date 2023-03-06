@@ -23,6 +23,8 @@
   font-size: 24px;
   line-height: 34px;
   text-decoration: none;
+  width: 108px;
+  
 }
 
 .kasa-link-active {
@@ -32,12 +34,62 @@
   font-size: 24px;
   line-height: 34px;
   text-decoration: underline;
+  width: 108px;
 }
 
-.test{
+.kasa_accueil{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+
+}
+
+.kasa_apropos{
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 108px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .kasa-header-logo {
+    width: 150px;
+  }
+
+  .kasa-link-inactive {
+    color: #ff6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-decoration: none;
+    width: 82px;
+    
+  }
+  
+  .kasa-link-active {
+    color: #ff6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-decoration: underline;
+    width: 82px;
+  }
+
+  .kasa_accueil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75px;
+  
+  }
+
+
+
+
 
 }

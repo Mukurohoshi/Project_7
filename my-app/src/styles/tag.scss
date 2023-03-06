@@ -2,6 +2,7 @@
     display: flex;
     gap: 10px;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .tag-element {
@@ -9,14 +10,15 @@
     color: #ffffff;
     border-radius: 10px;
     font-style: normal;
-    width: 23%;
     height: 25px;
     line-height: 20px;
     align-items: center;
     justify-content: center;
     padding: 3px 15px;
     display: inline-block;
-    
+    text-align: center;
+    white-space: nowrap;
+    width: max-content;
     
 }
 
@@ -30,5 +32,7 @@
         border-radius: 5px;
         font-size: 10px;
         line-height: 14px;
+        display: flex;
+        
     }
 }

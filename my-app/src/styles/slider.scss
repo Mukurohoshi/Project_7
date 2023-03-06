@@ -54,32 +54,35 @@
     color: #ffffff;
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-    .slider-container {
-        margin-bottom: 0;
-    }
+.slider-container {
+    margin-bottom: 0;
+}
 
-    .left-arrow {
-        left: 20px;
-        position: absolute;
-        top: 40%;
-        cursor: pointer;
-        width: 16.68px;
-        height: 49.2px;
+.left-arrow {
+    left: 20px;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    width: 16.68px;
+    height: 49.2px;
      
     }
 
     .right-arrow {
-        right: 20px;
-        position: absolute;
+    right: 20px;
+    position: absolute;
     top: 40%;
     cursor: pointer;
     width: 16.68px;
     height: 49.2px;
     }
 
-    
+
+.slider-index {
+   display: none;
+}
 }

@@ -28,16 +28,20 @@
 
 @media screen and (max-width: 768px) {
     .erreur404{
-        font-size: 96px;
+    font-size: 90px;
     }
 
     .erreur-msg {
-        font-size: 18px;
-        margin-top: 11px;
-        margin-bottom: 133px;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-bottom: 133px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 206px;
+        
     }
 
     .erreur-lien {
-        font-size: 14px;
+    font-size: 14px;
     }
 }
